@@ -9,3 +9,9 @@ Dans cet exercice, j’ai créé une fonction `diviser(int a, int b)` qui effect
 
 EXERCICE2
 
+<img width="431" height="311" alt="image" src="https://github.com/user-attachments/assets/dcd4e03e-4415-4a5b-afd6-3a90866df924" />
+
+Dans cet exercice, j’ai créé une classe `Produit` contenant un nom et un stock initial. J’ai ajouté la méthode `vendre(int quantite)` qui permet de diminuer le stock après chaque vente. J’ai également créé une exception personnalisée `StockInsuffisantException` qui hérite de la classe `exception` et redéfinit la méthode `what()` pour retourner un message d’erreur. Lorsque la quantité demandée dépasse le stock disponible, une exception est déclenchée avec `throw` puis capturée dans `main()` à l’aide de `try-catch`. J’ai testé une vente réussie et une vente avec un stock insuffisant.
+
+EXERCICE2
+
